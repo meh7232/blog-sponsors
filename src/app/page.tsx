@@ -40,7 +40,7 @@ export default function HomePage() {
     <div>
       {/* 헤더 */}
       <div className="bg-[#3D2B1F] rounded-2xl p-6 text-white mb-6 shadow-md">
-        <p className="text-xs text-[#C8A882] tracking-widest mb-2">✦ 협찬 기록부</p>
+        <p className="text-xs text-[#C8A882] tracking-widest mb-2">✦ 협찬 노트</p>
         <p className="text-sm text-[#A07850] mb-1">{thisMonth} 이달의 협찬</p>
         <p className="text-3xl font-bold text-[#C8A882]">{monthTotal.toLocaleString()}원</p>
         <p className="text-xs text-[#7A6050] mt-1">{monthItems.length}건 협찬</p>

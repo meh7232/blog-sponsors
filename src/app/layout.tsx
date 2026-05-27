@@ -3,7 +3,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 
 export const metadata: Metadata = {
-  title: '협찬 기록부',
+  title: '협찬 노트',
   description: '블로그 협찬 기록 및 통계 관리',
 };
 

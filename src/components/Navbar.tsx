@@ -15,7 +15,7 @@ export default function Navbar() {
     <nav className="bg-[#3D2B1F] sticky top-0 z-10 shadow-md">
       <div className="max-w-3xl mx-auto px-4">
         <div className="flex items-center h-14 gap-1">
-          <span className="font-bold text-[#C8A882] mr-4 tracking-wide text-sm">✦ 협찬기록부</span>
+          <span className="font-bold text-[#C8A882] mr-4 tracking-wide text-sm">✦ 협찬 노트</span>
           {links.map(({ href, label }) => (
             <Link key={href} href={href}
               className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
